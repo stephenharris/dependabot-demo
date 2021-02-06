@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/app-a"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "npm"
+    directory: "/lib-b"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "npm"
+    directory: "/lib-c"
+    schedule:
+      interval: "daily"
+  

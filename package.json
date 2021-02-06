@@ -1,14 +1,16 @@
 {
-  "name": "lib-b",
+  "name": "app-a",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
+    "app": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lib-c": "file:../lib-c"
+    "lib-b": "file:../lib-b",
+    "lodash": "^4.16.5"
   }
 }

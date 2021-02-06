@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lib-b": "file:../lib-b",
     "lodash": "^4.16.5"
   }
 }
